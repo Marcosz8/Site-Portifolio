@@ -31,7 +31,6 @@ body {
 /* Título e navegação */
 header {
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor5));
-    width: 100%;
 }
 
 header h1 {
@@ -266,7 +265,6 @@ article p {
 /* Rodapé do site*/ 
 footer {
     background-color: var(--cor0);
-    width: 100%;
     color: white;
     text-align: center;
     padding: 10px;
