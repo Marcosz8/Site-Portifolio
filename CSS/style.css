@@ -306,4 +306,99 @@ footer p {
     color: rgb(235, 219, 198);
     background-color: var(--cor1);
 }
+/* RESPONSIVIDADE PARA TELAS MENORES (ex: smartphones) */
+@media (max-width: 768px) {
 
+  /* Reduz espaçamento do menu e empilha links */
+  nav {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav > a {
+    display: block;
+    font-size: 1.1em;
+    padding: 10px;
+    margin: 5px auto;
+  }
+
+  /* Ajusta título principal */
+  header h1 {
+    font-size: 1.5em;
+    padding: 10px;
+  }
+
+  /* Ajusta espaçamento geral do conteúdo */
+  main {
+    padding: 10px;
+  }
+
+  /* Reduz o tamanho dos parágrafos para caber melhor */
+  article p, .projeto-c p {
+    font-size: 1em;
+    line-height: 1.4em;
+    text-indent: 15px;
+  }
+
+  /* Faz com que texto e imagem da seção "sobre" fiquem em coluna */
+  .container-sobre {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .texto, .imagem {
+    flex: 1 1 100%;
+    min-width: 100%;
+  }
+
+  .imagem img {
+    max-width: 70%;
+    margin: auto;
+  }
+
+  /* Diminui tamanho dos cards do portfólio */
+  .projeto-g {
+    grid-template-columns: 1fr; /* apenas 1 coluna */
+    gap: 20px;
+  }
+
+  .projeto-c h3 {
+    font-size: 1.2em;
+  }
+
+  /* Formulário mais compacto */
+  .contato-for {
+    padding: 20px 10px;
+  }
+
+  .contato-for input,
+  .contato-for textarea {
+    font-size: 0.95em;
+    padding: 10px;
+  }
+
+  .contato-for button {
+    padding: 12px;
+    font-size: 0.95em;
+  }
+
+  /* Rodapé mais limpo */
+  footer h3 {
+    font-size: 1.1em;
+    padding: 10px;
+  }
+
+  .footer-links li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .footer-links a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+}
