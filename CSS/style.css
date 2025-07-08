@@ -31,6 +31,7 @@ body {
 /* Título e navegação */
 header {
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor5));
+    width: 100%;
 }
 
 header h1 {
@@ -270,6 +271,7 @@ footer {
     padding: 10px;
     font-family: Arial, sans-serif;
     font-size: 0.9em;
+    width: 100%;
 }
 /* Formatação do h3 do rodapé do site*/ 
 footer h3 {
