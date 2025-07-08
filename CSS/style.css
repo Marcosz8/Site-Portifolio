@@ -68,7 +68,7 @@ nav a:hover {
 main {
     background-color: transparent;
     flex: 1;   
-    min-width: 450px;
+    min-width: 300px;
     max-width: 1500px;
     margin: auto;
     padding: 20px;
